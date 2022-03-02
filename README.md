@@ -19,13 +19,13 @@ Shows the distribution of job execution by time.
 ![dist](https://user-images.githubusercontent.com/100505047/155977433-4c9add59-b334-42f1-8138-fcfb79d09637.png)
 
 # How to set up
-If you set your datasource information for spring batch meta-table in application.yml, the application is started on port 8080.
-
-![yml](https://user-images.githubusercontent.com/13634581/156312793-3ec16573-d2c5-429b-a36c-eb392c7ba015.png)
-
-# Docker Installation
+### Docker Environment
 Setting the database url of Spring Batch Meta-Table in docker environment, execute the following.
 
 ```
 docker run -p 8080:8080 -e "SPRING_DATASOURCE_URL=jdbc:mariadb://meta_addr:3306/meta_database" -e "SPRING_DATASOURCE_USERNAME=scott" -e "SPRING_DATASOURCE_PASSWORD=tiger" yongs2020/springbatch-manager:1.0.0
 ```
+### SpringBoot Environment
+If you set your datasource information for spring batch meta-table in application.yml, the application is started on port 8080.
+
+![yml](https://user-images.githubusercontent.com/13634581/156312793-3ec16573-d2c5-429b-a36c-eb392c7ba015.png)
