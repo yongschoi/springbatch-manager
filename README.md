@@ -22,3 +22,10 @@ Shows the distribution of job execution by time.
 If you set your database url for spring batch meta-table in application.yml, the application is started on port 8080.
 
 ![yml](https://user-images.githubusercontent.com/100505047/155978569-b72ba16e-7856-421c-a02d-fde67f6e213d.png)
+
+# Docker Installation
+Setting the database url of Spring Batch Meta-Table in docker environment, execute the following.
+
+```
+docker run -p 8080:8080 -e "SPRING_DATASOURCE_URL=jdbc:mariadb://meta_addr:3306/meta_database" yongs2020/springbatch-manager:1.0.0
+```
