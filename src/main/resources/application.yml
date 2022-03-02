@@ -10,7 +10,7 @@ spring:
   application:
     name: springbatch-manager
   datasource:
-    url: jdbc:mariadb://localhost:3306/test # your database for Spring Batch meta-tabel 
+    url: jdbc:mariadb://localhost:3306/batch # your database for Spring Batch meta-tabel 
     driverClassName: org.mariadb.jdbc.Driver
     username: scott
     password: tiger
