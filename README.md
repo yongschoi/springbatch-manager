@@ -19,9 +19,9 @@ Shows the distribution of job execution by time.
 ![dist](https://user-images.githubusercontent.com/100505047/155977433-4c9add59-b334-42f1-8138-fcfb79d09637.png)
 
 # How to set up
-If you set your database url for spring batch meta-table in application.yml, the application is started on port 8080.
+If you set your datasource information for spring batch meta-table in application.yml, the application is started on port 8080.
 
-![yml](https://user-images.githubusercontent.com/100505047/155978569-b72ba16e-7856-421c-a02d-fde67f6e213d.png)
+![yml](https://user-images.githubusercontent.com/13634581/156312793-3ec16573-d2c5-429b-a36c-eb392c7ba015.png)
 
 # Docker Installation
 Setting the database url of Spring Batch Meta-Table in docker environment, execute the following.
