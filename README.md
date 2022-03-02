@@ -27,5 +27,5 @@ If you set your database url for spring batch meta-table in application.yml, the
 Setting the database url of Spring Batch Meta-Table in docker environment, execute the following.
 
 ```
-docker run -p 8080:8080 -e "SPRING_DATASOURCE_URL=jdbc:mariadb://meta_addr:3306/meta_database" yongs2020/springbatch-manager:1.0.0
+docker run -p 8080:8080 -e "SPRING_DATASOURCE_URL=jdbc:mariadb://meta_addr:3306/meta_database" -e "SPRING_DATASOURCE_USERNAME=scott" -e "SPRING_DATASOURCE_PASSWORD=tiger" yongs2020/springbatch-manager:1.0.0
 ```
